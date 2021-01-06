@@ -1,0 +1,144 @@
+.header {
+  height: 50px;
+  color: white;
+  background-color: rgb(58, 58, 150);
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+}
+.startTestButton {
+  height: 50px;
+  width: 100px;
+  margin-top: 20%;
+  margin-left: 45%;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+}
+.startTestButton:hover {
+  transform: scale(1.2);
+}
+.dataInfo {
+  position: absolute;
+  color: white;
+  top: 30%;
+  right: 0px;
+  width: 200px;
+  display: grid;
+  grid-template-columns: 12fr;
+  grid-row-gap: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.total {
+  background-color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid 10px transparent;
+  border-left: solid 10px lightgray;
+}
+.solved {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: green;
+  border: solid 10px transparent;
+  border-left: solid 10px lightgray;
+}
+.skipped {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(235, 98, 98);
+  border: solid 10px transparent;
+  border-left: solid 10px lightgray;
+}
+.unsolved {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: gray;
+  border: solid 10px transparent;
+  border-left: solid 10px lightgray;
+}
+.question {
+  font-size: 25px;
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: 12fr;
+  grid-row-gap: 20px;
+  width: 800px;
+}
+.options {
+  display: grid;
+  grid-template-columns: 12fr;
+  grid-row-gap: 13px;
+}
+.checkbox {
+  margin-right: 10px;
+}
+
+.optionsDiv {
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 7px;
+  padding-left: 50px;
+}
+.optionsDiv:hover {
+  background-color: limegreen;
+}
+label .checkbox:checked ~ span.optionText {
+  color: blue;
+}
+.questionDiv {
+  padding: 8px;
+  padding-left: 50px;
+  background-color: orange;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 30px solid lightgray;
+  color: black;
+}
+.nextBtn {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  height: 50px;
+  width: 100px;
+  margin-top: 20%;
+  margin-left: 45%;
+  cursor: pointer;
+  background-color: lightseagreen;
+  color: white;
+  font-size: 20px;
+}
+.nextBtn:hover {
+  transform: scale(1.1);
+}
+.showtable {
+  margin-left: 40%;
+  font-size: 20px;
+
+  margin-top: 40px;
+}
+.tableDisplay {
+  display: table;
+  border: 1px solid;
+  width: 300px;
+  text-align: center;
+  margin-top: 10%;
+  min-height: 200px;
+}
+td,
+th {
+  border-bottom: 1px solid darkgray;
+}
+th {
+  background-color: white;
+}
+tr:hover {
+  background-color: #f5f5f5;
+}
+.headerText {
+  margin-left: 10%;
+  font-size: 30px;
+}
